@@ -1,7 +1,7 @@
 import requests
 
 
-def get_data(keywords: str, count: int, title: str, price: str):
+def get_data(keywords: str, count: int):
     try:
         os.makedirs('./ori_image/' + keywords)
     except:
